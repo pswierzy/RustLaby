@@ -1,11 +1,11 @@
 mod outermost {
     pub fn middle_function() {}
  
-    fn middle_secret_function() {}
+    pub fn middle_secret_function() {}
  
     pub mod inside {
         pub fn inner_function() {}
-        fn inner_secret_function() {}
+        pub fn inner_secret_function() {}
     }
 }
  
